@@ -26,4 +26,8 @@ rtp:prepend(lazypath)
 -- Install plugins
 require('lazy').setup({
     import = "plugins",
+}, {
+    rocks = {
+        enabled = false
+    }
 })
